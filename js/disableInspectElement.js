@@ -1,5 +1,8 @@
+  
+/* */
 
-  // Disable right-click context menu
+
+// Disable right-click context menu
   document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
   });
@@ -24,4 +27,18 @@
     }
   };
 
+  // Disable text selection
+  document.addEventListener("selectstart", function (e) {
+    e.preventDefault();
+  });
 
+  // Disable copy action (Ctrl+C)
+  document.addEventListener("copy", function (e) {
+    e.preventDefault();
+  });
+
+  // Disable text highlighting with CSS
+  document.body.style.userSelect = "none";
+  document.body.style.webkitUserSelect = "none";
+  document.body.style.mozUserSelect = "none";
+  document.body.style.msUserSelect = "none";
