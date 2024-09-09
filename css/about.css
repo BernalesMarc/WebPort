@@ -1,0 +1,178 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*--------------Nav-------------------*/
+
+nav{
+    background-color: #282a35 !important;
+    padding: 16px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    padding: 14px 16px;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+       .sidebar{
+    background-color: #282a35 !important;
+}
+
+/*--------------Section-------------------*/
+
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+article{
+    width: 50%;
+}
+
+.item{
+    flex: 1;
+}
+
+.item:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+aside {
+    position: relative; 
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: -8px 0 5px rgba(0, 0, 0, 0.4);
+}
+
+aside::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/mepic.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1.5px); /* Adjust the blur radius as needed */
+    z-index: -1; /* Place the blurred background behind the content */
+}
+
+aside img{
+    margin: 25% 70% 25% 0; 
+    height: 55vh;
+    border-radius: 60%;
+    transition: 0.8s ease-in-out;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+    flex: 1; /* Pantay na laki para sa bawat item */
+    display: flex;
+    align-items: center; /* Center-aligns content vertically */
+    justify-content: center; /* Center-aligns content horizontally */
+    padding: 10px;
+}
+
+.main-about{
+    text-align: left;
+    padding: 5%;
+}
+
+.main-about p, .main-about h1{
+     width: 70%;
+}
+
+@media only screen and (max-width: 450px) {
+    
+    section{
+        display: flex;
+        flex-direction: column; /* Layout mga item sa column */
+        height: 100vh; /* Optional: Full viewport height */
+    }
+    
+    aside img{
+        margin: 0% 25% 70% 25%;
+        height: 35vh;
+    }
+    
+    aside, article{
+        width: 100%;
+        height: 50%;
+        
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    
+    .main-about p, .main-about h1{
+     width: 100%;
+}
+    
+    aside img{
+        margin: 0% 25% 50% 25%;
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+    section{
+        display: flex;
+        flex-direction: column; /* Layout mga item sa column */
+        height: 100vh; /* Optional: Full viewport height */
+    }
+    
+    aside img{
+        margin: 0% 25% 25% 25%;
+        height: 50vh;
+    }
+    
+    aside, article{
+        width: 100%;
+        height: 50%;
+        
+    }
+    
+        
+}
+
+
+@media only screen and (min-width: 701px) and (max-width: 991px) {
+        aside img{
+        margin: 0% 40% 0 0%;
+        height: 55vh;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+        aside img{
+        margin: 0% 40% 0 0%;
+        height: 50vh;
+    }
+}

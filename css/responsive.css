@@ -1,0 +1,60 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    section {
+        height: 30vh;
+    }
+
+    section img {
+        margin: 10% 0 0 0;
+        height: 40vh;
+        border: 12px solid #ffff;
+
+    }
+
+    main {
+        margin: 40% 0 0 0;
+    }
+
+    main p span {
+        font-size: 32px;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    main {
+        margin: 25% 0 0 0;
+    }
+
+    section img {
+        margin: 10% 0 0 0;
+        height: 55vh;
+    }
+
+    .sidebar {
+        background-color: #282a35 !important;
+    }
+
+    .offcanvas-header .btn-close {
+        position: absolute !important;
+        right: 25px !important;
+    }
+    
+    .about-content{
+        flex-direction: column;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

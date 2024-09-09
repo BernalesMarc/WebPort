@@ -1,0 +1,118 @@
+.proj-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    gap: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.proj-contents {
+    flex: 0 1 calc(90% - 10%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Adds equal spacing between elements */
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+
+.proj-img {
+    min-width: 40%;
+    padding: 4%;
+    overflow: hidden;
+}
+
+.proj-img img {
+    max-width: 100%; /* Ensures the image doesn’t overflow */
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image fits within the container */
+}
+
+
+
+.proj-info {
+    display: flex;
+    min-width: 60%;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.proj-date {
+    font-style: italic;
+}
+
+.tech-used i {    
+    font-size: 40px;
+    padding: 2% 1.5% 0 1.5%;
+}
+
+.tech-used img {
+    margin: 10% 0 0 0;
+    padding: 0 2.5% 0 2.5%;
+}
+
+.tech-used img {
+    margin: 10% 0 0 0;
+    height: 54px;
+    padding: 0 2.5% 0 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .proj-contents {
+        flex-direction: column;
+        align-items: center; /* Center the contents */
+    }
+    
+    .proj-img {
+        width: 60%; /* Make sure the image container takes full width */
+        padding: 5%; /* Remove padding to maximize space */
+    }
+    
+    .proj-img img {
+        object-fit: cover; /* Keep it covered and responsive */
+        height: auto; /* Keep aspect ratio */
+    }
+    
+    .proj-info {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}
+@media screen and (max-width: 480px) {
+    .proj-contents {
+        flex-direction: column;
+    }
+
+    .proj-img {
+        width: 100%;
+        margin: 2%;
+    }
+
+    .proj-img img {
+        width: 70%;
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .proj-title {
+        font-size: 16px;
+    }
+
+    .proj-date {
+        font-size: 14px;
+    }
+    
+    .proj-info {
+        padding: 8px; /* Further reduce padding for smaller devices */
+    }
+}

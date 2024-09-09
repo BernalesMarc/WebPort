@@ -1,0 +1,153 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*--------------Nav-------------------*/
+
+nav{
+    background-color: #282a35 !important;
+    padding: 16px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    padding: 14px 16px;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+    .sidebar{
+    background-color: #282a35 !important;
+}
+
+/*--------------Section-------------------*/
+
+
+section{
+    background-color: #f2f2f2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    transition: 0.8s ease-in-out;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.4);
+}
+
+section img{
+    margin: 5% 0  12% 0; 
+    height: 60vh;
+    border: 10px solid #ffff;
+    border-radius: 60%;
+    transition: 0.8s ease-in-out;
+}
+
+/*--------------Main Content-------------------*/
+
+main {
+    margin: 12% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+
+main p {
+    font-size: 42px;
+    text-align: center;
+}
+
+main span{
+    display: inline;
+    transition: 0.5s ease-in-out;
+}
+
+main span:nth-child(1) {
+    font-weight: 600;
+}
+
+main p span:nth-child(2) {
+    font-weight: 300;
+}
+
+.greetings-info{
+    margin: 5% 0 0 0;
+    text-align: center;
+}
+
+.greetings-info p {
+    font-size: 32px;
+    margin: 10px 0 10px 0;
+}
+
+.greetings-info h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0; 
+}
+
+.greetings-info p:nth-child(3){
+    font-size: 18px;
+    margin: 4%  auto 2% auto; /* Adjusts the margin to center the paragraph */
+    width: 50%;
+    overflow: hidden;
+    line-height: 1.7; /* Adjusts line height for better readability */
+}
+
+.greetings-info button{
+    background-color: #282a35;
+    color: white;
+    height: 40px;
+    border-style: none;
+    width: 120px;
+}
+
+.greetings-info button{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.6);
+}
+
+.greetings-info button:hover{
+    color: #282a35;
+    background-color: transparent;
+    border: 2px solid #282a35;
+    transition: 0.3s ease-in-out;
+     height: 45px;
+    width: 125px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+.social-links{
+    font-size: 36px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 0 4% 0;
+}
+
+.social-links i{
+    padding: 0.5%;
+    cursor: pointer;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+     transition: 0.3s ease-in-out;
+}
+
+.social-links i:hover{
+    font-size: 44px;
+     transition: 0.3s ease-in-out;
+}
