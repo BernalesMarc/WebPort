@@ -14,6 +14,7 @@
 
 .skills-header {
     background-color: #f2f2f2;
+    font-size: 24px;
     padding: 1.5%;
     width: 100%;
     text-align: center;
@@ -71,10 +72,26 @@
 }
 
 .skills-main:nth-child(6) .skill-item:nth-child(5) {
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 35px 35px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
+@media only screen and (min-width: 1399px) {
+    
+    .skills-header {
+        font-size: 32px;
+    }
+    
+    .skills-main:nth-child(6) .skill-item:nth-child(5) {
+        border-radius: 0 0 35px 0;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+        
+    }
+
+    .skills-main:nth-child(6) .skill-item:nth-child(1) {
+        border-radius: 0 0 0 35px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
 
