@@ -42,3 +42,4 @@
   document.body.style.webkitUserSelect = "none";
   document.body.style.mozUserSelect = "none";
   document.body.style.msUserSelect = "none";
+   
