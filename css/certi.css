@@ -1,10 +1,15 @@
 .certi-container {
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    padding: 5%;
+    padding: 0 15%;
     gap: 30px;
     transition: 0.3s ease-in-out;
+}
+
+.certi-container h1 {
+    text-align: center;
 }
 
 .certi-contents {

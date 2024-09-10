@@ -1,5 +1,5 @@
   
-/* */
+/* 
 
 
 // Disable right-click context menu
@@ -43,3 +43,5 @@
   document.body.style.mozUserSelect = "none";
   document.body.style.msUserSelect = "none";
    
+   
+*/

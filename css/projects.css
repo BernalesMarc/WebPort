@@ -1,11 +1,17 @@
 .proj-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    padding: 5%;
+    padding: 0 15%;
     gap: 30px;
     transition: 0.3s ease-in-out;
 }
+
+.proj-container h1 {
+    text-align: center;
+}
+
 
 .proj-contents {
     flex: 0 1 calc(90% - 10%);

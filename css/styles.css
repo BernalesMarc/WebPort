@@ -82,24 +82,44 @@ main p span:nth-child(2) {
     font-weight: 300;
 }
 
-.greetings-info{
+
+main:nth-child(6){
+    margin:0;
+    transition: 0.3s ease-in-out;
+}
+
+hr{
+    text-align: center;
+    width: 80%;
+    margin: 0 25% 0 25%;
+}
+
+.hr-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin: 5% 0; /* Adjust as needed */
+}
+
+
+
+.info{
     margin: 5% 0 0 0;
     text-align: center;
 }
 
-.greetings-info p {
+.info p {
     font-size: 32px;
     margin: 10px 0 10px 0;
 }
 
-.greetings-info h1 {
+.info h1 {
     text-align: center;
     font-size: 40px;
     font-weight: 300;
     margin-top: 0; 
 }
 
-.greetings-info p:nth-child(3){
+.info p:nth-child(3){
     font-size: 18px;
     margin: 4%  auto 2% auto; /* Adjusts the margin to center the paragraph */
     width: 50%;
@@ -107,7 +127,7 @@ main p span:nth-child(2) {
     line-height: 1.7; /* Adjusts line height for better readability */
 }
 
-.greetings-info button{
+.info button{
     background-color: #282a35;
     color: white;
     height: 40px;
@@ -115,18 +135,18 @@ main p span:nth-child(2) {
     width: 120px;
 }
 
-.greetings-info button{
+.info button{
     cursor: pointer;
     transition: 0.3s ease-in-out;
     box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
-.greetings-info button:hover{
+.info button:hover{
     color: #282a35;
     background-color: transparent;
     border: 2px solid #282a35;
     transition: 0.3s ease-in-out;
-     height: 45px;
+    height: 45px;
     width: 125px;
     box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.4);
 }
@@ -144,10 +164,10 @@ main p span:nth-child(2) {
     position: relative;
     top:50%;
     transform: translateY(-50%);
-     transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .social-links i:hover{
     font-size: 44px;
-     transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
