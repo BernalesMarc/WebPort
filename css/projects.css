@@ -123,6 +123,14 @@
     .proj-contents {
         flex-direction: column;
     }
+    
+    .tech-used{
+        margin: 20% 0 10% 0;
+    }
+    
+    .tech-used img {
+        margin: 0;
+    }
 
     .proj-img {
         width: 100%;
