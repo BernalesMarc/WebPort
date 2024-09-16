@@ -61,6 +61,13 @@
 }
 
 @media screen and (max-width: 480px) {
+    
+ 
+.certi-container {
+    padding: 0;
+flex-direction:row;
+}
+    
     .certi-img {
         height: 150px;
     }
