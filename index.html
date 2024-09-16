@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/certi.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/d4e2a811bb.js" crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/d4e2a811bb.js" crossorigin="anonymous"></script>
 
@@ -19,25 +22,27 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
-            <a class="navbar-brand" href="#">Your Brand</a>
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <a class="navbar-brand" href="#">
+                <!-- Insert text somethingg -->
+            </a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-start" id="offcanvasNavbar" tabindex="-1"
-                aria-labelledby="offcanvasNavbarLabel">
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header p-0 text-white border-bottom">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                    <h5 class="offcanvas-header" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+
+                <div class="offcanvas-body d-flex flex-column">
+                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -52,6 +57,8 @@
                             <a class="nav-link" href="project.html">Projects</a>
                         </li>
                     </ul>
+
+
                 </div>
             </div>
         </div>
@@ -100,7 +107,8 @@
                 <img src="img/Attendance/attendance%20Mockup.png" alt="">
             </div>
             <div class="proj-info">
-                <span class="proj-title">Church Attendance Web Monitoring System</span>
+                <span class="proj-title">Attend-o-Rama: Attendance Monitoring Tool
+                </span>
                 <span class="proj-date">April 2024 - July 2024</span>
 
                 <span class="proj-info">
@@ -108,26 +116,11 @@
                 </span>
 
                 <div class="tech-used">
-                            <div class="tech-info">
-                                <i class="fa-brands fa-html5"></i>
-                                <div class="tech-label">HTML5</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <i class="fa-brands fa-css3-alt"></i>
-                                <div class="tech-label">CSS3</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <i class="fa-brands fa-js"></i>
-                                <div class="tech-label">JAVA SCRIPT</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <i class="fa-brands fa-php"></i>
-                                <div class="tech-label">PHP</div>
-                            </div>
-                        </div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-php"></i>
+                </div>
 
             </div>
         </div>
@@ -146,25 +139,10 @@
                 </span>
 
                 <div class="tech-used">
-                            <div class="tech-info">
-                                <img src="img/prodlogo/csharp_blk.svg" alt="">
-                                <div class="tech-label">C#</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <img src="img/prodlogo/sql_blk.svg" alt="">
-                                <div class="tech-label">SQL</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <img src="img/prodlogo/illustrator_blk.svg" alt="">
-                                <div class="tech-label">ILLUSTRATOR</div>
-                            </div>
-
-                            <div class="tech-info">
-                                <img src="img/prodlogo/xd_blk.svg" alt="">
-                                <div class="tech-label">XD</div>
-                            </div>
+                    <img src="img/prodlogo/csharp_blk.svg" alt="">
+                    <img src="img/prodlogo/sql_blk.svg" alt="">
+                    <img src="img/prodlogo/illustrator_blk.svg" alt="">
+                </div>
 
             </div>
         </div>
@@ -218,8 +196,6 @@
     <div class="hr-container">
         <hr>
     </div>
-    </div>
-    <script src="js/disableInspectElement.js"></script>
-</body>
 
-</html>
+    <script src="js/disableInspectElement.js"></script>
+</body></html>
