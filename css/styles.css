@@ -3,7 +3,6 @@
 }
 
 
-
 /*--------------Nav-------------------*/
 
 nav{
@@ -26,10 +25,38 @@ li{
 a{
     color: #ffff;
     text-decoration: none;
+    transition: 0.8s ease-in-out !important;
 }
 
+a:hover{
+    transition: 0.8s ease-in-out !important;
+     color: white !important;
+}
     .sidebar{
     background-color: #282a35 !important;
+}
+
+.underline{
+    position: relative !important;
+    display: inline-block !important; 
+}
+
+.underline:after{
+    content: ''; 
+  position: absolute; 
+  width: 100%; 
+  transform: scaleX(0);
+  height: 2px; 
+  bottom: 0;
+  left: 0;
+  background-color: #e3e3e3; 
+  transform-origin: bottom right;
+  transition: transform 1s ease-out;
+}
+
+.underline:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left; 
 }
 
 /*--------------Section-------------------*/
@@ -145,7 +172,7 @@ hr{
     transition: 0.3s ease-in-out;
     height: 45px;
     width: 125px;
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.4);
 }
 
 .social-links{

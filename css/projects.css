@@ -39,7 +39,6 @@
 }
 
 
-
 .proj-info {
     display: flex;
     min-width: 60%;
@@ -57,6 +56,19 @@
 
 .proj-date {
     font-style: italic;
+}
+
+.tech-used{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.tech-used span{
+    color: white;
+    background-color:#282a35;
+    flex: 1;
+    padding: 1%;
 }
 
 .tech-used i {    
