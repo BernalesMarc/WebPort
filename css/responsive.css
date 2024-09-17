@@ -42,14 +42,22 @@
         background-color: #282a35 !important;
     }
 
-    .offcanvas-header .btn-close {
-        position: absolute !important;
-        right: 25px !important;
+    .container{
+        min-width: 100% !important;
     }
     
     .about-content{
         flex-direction: column;
     }
+    
+    .offcanvas-header .btn-close {
+   padding: 0 0 0 15% !important;
+}
+    
+.navbar-toggler-icon{
+    
+}
+
 
 }
 
