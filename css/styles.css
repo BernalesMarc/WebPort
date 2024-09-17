@@ -50,13 +50,13 @@ a:hover{
   bottom: 0;
   left: 0;
   background-color: #e3e3e3; 
-  transform-origin: bottom right;
-  transition: transform 1s ease-out;
+  transform-origin: bottom;
+  transition: 0.8s ease-in;
 }
 
 .underline:hover::after{
     transform: scaleX(1);
-  transform-origin: bottom left; 
+  transform-origin: bottom; 
 }
 
 /*--------------Section-------------------*/

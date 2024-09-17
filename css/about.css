@@ -8,6 +8,29 @@ html{
     margin: 0px;
 }
 
+.underline{
+    position: relative !important;
+    display: inline-block !important; 
+}
+
+.underline:after{
+    content: ''; 
+  position: absolute; 
+  width: 100%; 
+  transform: scaleX(0);
+  height: 2px; 
+  bottom: 0;
+  left: 0;
+  background-color: #e3e3e3; 
+  transform-origin: bottom;
+  transition: 0.8s ease-in;
+}
+
+.underline:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom; 
+}
+
 
 /*--------------Nav-------------------*/
 
