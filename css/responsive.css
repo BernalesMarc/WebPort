@@ -19,6 +19,9 @@
     main p span {
         font-size: 32px;
     }
+.offcanvas-header .btn-close {
+   padding: 0 0 0 15% !important;
+}
 
 
 

@@ -161,6 +161,10 @@ aside img{
         margin: 0% 25% 50% 25%;
         height: 40vh;
     }
+    
+    .offcanvas-header .btn-close {
+   padding: 0 0 0 15% !important;
+}
 }
 
 @media only screen and (min-width: 451px) and (max-width: 600px) {
@@ -180,7 +184,9 @@ aside img{
         height: 50%;
         
     }
-    
+    .offcanvas-header .btn-close {
+   padding: 0 0 0 15% !important;
+}
         
 }
 
