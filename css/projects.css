@@ -59,6 +59,7 @@
 }
 
 .tech-used{
+    margin: 10% 0 0 0;
     display: flex;
     flex-wrap: wrap;
     gap:20px;
@@ -68,7 +69,7 @@
     color: white;
     background-color:#282a35;
     flex: 1;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .tech-used i {    
@@ -87,7 +88,7 @@
     padding: 0 2.5% 0 2.5%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .proj-contents {
         flex-direction: column;
         align-items: center; /* Center the contents */
@@ -106,8 +107,18 @@
     .proj-info {
         padding: 10px; /* Reduce padding for smaller screens */
     }
+    
+    .tech-used span{
+        padding: 2% 1%;
+    }
+    
 }
 @media screen and (max-width: 480px) {
+    
+    .tech-used{
+    margin: 10% 0 0 0;
+    }
+    
     .proj-contents {
         flex-direction: column;
     }
