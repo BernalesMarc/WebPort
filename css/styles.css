@@ -5,64 +5,65 @@
 
 /*--------------Nav-------------------*/
 
-nav{
+nav {
     background-color: #282a35 !important;
     padding: 16px;
 }
 
-ul{
+ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
 
-li{
+li {
     float: left;
     padding: 14px 16px;
 }
 
-a{
+a {
     color: #ffff;
     text-decoration: none;
     transition: 0.8s ease-in-out !important;
 }
 
-a:hover{
+a:hover {
     transition: 0.8s ease-in-out !important;
-     color: white !important;
+    color: white !important;
 }
-    .sidebar{
+
+.sidebar {
     background-color: #282a35 !important;
 }
 
-.underline{
+.underline {
     position: relative !important;
-    display: inline-block !important; 
+    display: inline-block !important;
 }
 
-.underline:after{
-    content: ''; 
-  position: absolute; 
-  width: 100%; 
-  transform: scaleX(0);
-  height: 2px; 
-  bottom: 0;
-  left: 0;
-  background-color: #e3e3e3; 
-  transform-origin: bottom;
-  transition: 0.8s ease-in;
+.underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e3e3e3;
+    transform-origin: bottom;
+    transition: 0.8s ease-in;
 }
 
-.underline:hover::after{
+.underline:hover::after {
     transform: scaleX(1);
-  transform-origin: bottom; 
+    transform-origin: bottom;
 }
 
 /*--------------Section-------------------*/
 
 
-section{
+section {
     background-color: #f2f2f2;
     height: 50vh;
     display: flex;
@@ -71,8 +72,8 @@ section{
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.4);
 }
 
-section img{
-    margin: 5% 0  12% 0; 
+section img {
+    margin: 5% 0 12% 0;
     height: 60vh;
     border: 10px solid #ffff;
     border-radius: 60%;
@@ -93,7 +94,7 @@ main p {
     text-align: center;
 }
 
-main span{
+main span {
     display: inline;
     transition: 0.5s ease-in-out;
 }
@@ -107,12 +108,12 @@ main p span:nth-child(2) {
 }
 
 
-main:nth-child(6){
-    margin:0;
+main:nth-child(6) {
+    margin: 0;
     transition: 0.3s ease-in-out;
 }
 
-hr{
+hr {
     text-align: center;
     width: 80%;
     margin: 0 25% 0 25%;
@@ -120,13 +121,15 @@ hr{
 
 .hr-container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    margin: 5% 0; /* Adjust as needed */
+    justify-content: center;
+    /* Centers horizontally */
+    margin: 5% 0;
+    /* Adjust as needed */
 }
 
 
 
-.info{
+.info {
     margin: 5% 0 0 0;
     text-align: center;
 }
@@ -140,18 +143,20 @@ hr{
     text-align: center;
     font-size: 40px;
     font-weight: 300;
-    margin-top: 0; 
+    margin-top: 0;
 }
 
-.info p:nth-child(3){
+.info p:nth-child(3) {
     font-size: 18px;
-    margin: 4%  auto 2% auto; /* Adjusts the margin to center the paragraph */
+    margin: 4% auto 2% auto;
+    /* Adjusts the margin to center the paragraph */
     width: 50%;
     overflow: hidden;
-    line-height: 1.7; /* Adjusts line height for better readability */
+    line-height: 1.7;
+    /* Adjusts line height for better readability */
 }
 
-.info button{
+.info button {
     background-color: #282a35;
     color: white;
     height: 40px;
@@ -159,13 +164,13 @@ hr{
     width: 120px;
 }
 
-.info button{
+.info button {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
-.info button:hover{
+.info button:hover {
     color: #282a35;
     background-color: transparent;
     border: 2px solid #282a35;
@@ -182,16 +187,19 @@ hr{
     margin: 0 0 4% 0;
 }
 
-.social-links i{
+.social-links a{
     padding: 0.5%;
     cursor: pointer;
     position: relative;
     top:50%;
     transform: translateY(-50%);
-    transition: 0.3s ease-in-out;
+     transition: 0.3s ease-in-out;
+     text-decoration: none;
+     color: #282a35;
 }
 
-.social-links i:hover{
+.social-links a:hover{
     font-size: 44px;
-    transition: 0.3s ease-in-out;
+     transition: 0.3s ease-in-out;
+    color: #282a35 !important;
 }
