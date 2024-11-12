@@ -23,7 +23,14 @@
    padding: 0 0 0 15% !important;
 }
 
+.info h1{
+    font-size: 22px;
+    padding: 0 16px 0 16px;
+}
 
+.info p{
+    font-size: 32px;
+}
 
 }
 

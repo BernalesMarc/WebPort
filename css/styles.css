@@ -142,8 +142,8 @@ hr {
 .info h1 {
     text-align: center;
     font-size: 40px;
-    font-weight: 300;
-    margin-top: 0;
+        padding: 0 16px 0 16px;
+  
 }
 
 .info p:nth-child(3) {
